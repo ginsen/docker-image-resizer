@@ -1,5 +1,7 @@
 # Docker-Image-Resizer
-Docker service to resize image on the fly.
+Docker service to resize image on the fly.<br>
+This project use [ginsen/image-resizer](https://github.com/ginsen/image-resizer.git) fork from [jimmynicol/image-resizer](https://github.com/jimmynicol/image-resizer) as engine to resize/optimize
+images on-the-fly.
 
 # Build docker image
 
