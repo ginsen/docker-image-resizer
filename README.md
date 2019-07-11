@@ -13,7 +13,7 @@ $ cd docker-image-resizer
 $ docker build -t image-resizer:1.0.0 .
 ```
 
-NOTE: Not forget the last dot.
+NOTE: Don't forget the last dot.
 
 # Run docker container
 
