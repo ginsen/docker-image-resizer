@@ -30,7 +30,7 @@ See the documentation for [image-resizer](https://github.com/ginsen/image-resize
 and API usage.
 
 
-## Build docker image form [GitHub](https://github.com/ginsen/docker-image-resizer)
+## Build docker image from [GitHub](https://github.com/ginsen/docker-image-resizer)
 
 Download this project with git and build image docker.
 
