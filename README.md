@@ -15,6 +15,7 @@ $ docker run -d --name server-resizer \
   -e AWS_SECRET_ACCESS_KEY={your-secret-access} \
   -e AWS_REGION={your-region} \
   -e S3_BUCKET={your-bucket} \
+  -e IMAGE_QUALITY=100 \
   ginsen/image-resizer 
 ```
 
@@ -53,5 +54,6 @@ $ docker run -d --name server-resizer \
   -e AWS_SECRET_ACCESS_KEY={your-secret-access} \
   -e AWS_REGION={your-region} \
   -e S3_BUCKET={your-bucket} \
+  -e IMAGE_QUALITY=100 \
   my-custom-resizer
 ```
