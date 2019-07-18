@@ -1,7 +1,7 @@
 # Docker-Image-Resizer
 
 Docker micro-service to resize image on the fly.<br>
-This project use [ginsen/image-resizer](https://github.com/ginsen/image-resizer.git) fork from [jimmynicol/image-resizer](https://github.com/jimmynicol/image-resizer) as engine to resize/optimize
+This project use [ginsen/image-resizer](https://github.com/ginsen/image-resizer.git) fork from [tripviss/image-resizer](https://github.com/tripviss/image-resizer) as engine to resize/optimize
 images on-the-fly.
 
 ## Download docker image from [DockerHub](https://hub.docker.com/r/ginsen/image-resizer) (Recommended)
@@ -15,7 +15,6 @@ $ docker run -d --name server-resizer \
   -e AWS_SECRET_ACCESS_KEY={your-secret-access} \
   -e AWS_REGION={your-region} \
   -e S3_BUCKET={your-bucket} \
-  -e IMAGE_QUALITY=100 \
   ginsen/image-resizer 
 ```
 
@@ -54,6 +53,5 @@ $ docker run -d --name server-resizer \
   -e AWS_SECRET_ACCESS_KEY={your-secret-access} \
   -e AWS_REGION={your-region} \
   -e S3_BUCKET={your-bucket} \
-  -e IMAGE_QUALITY=100 \
   my-custom-resizer
 ```
