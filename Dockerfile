@@ -128,7 +128,7 @@ RUN yarn global add node-gyp
 
 WORKDIR /image-server
 
-RUN yarn global add https://github.com/ginsen/image-resizer.git#v1.7.0 \
+RUN yarn global add https://github.com/ginsen/image-resizer.git#v1.8.0 \
 	&& image-resizer new \
 	&& yarn install --production \
 	&& yarn cache clean
